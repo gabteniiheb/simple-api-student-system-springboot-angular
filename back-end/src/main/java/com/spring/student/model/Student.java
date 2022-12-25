@@ -17,6 +17,7 @@ public class Student {
     private String fullName;
     @Column(name= "phone_number")
     private String phone;
+    @Enumerated(EnumType.STRING)
     @Column(name= "gender")
     private Gender gender;
     @Column(name= "age")
